@@ -7,10 +7,7 @@ from datetime import datetime
 from pytz import timezone
 
 
-def get_data():
-    path = r'C:\Users\Admin\Documents\WeatherApp\edit.csv'
-    return pd.read_csv(path)
-df = get_data()
+df = pd.read_csv('edit.csv')
 
 
 
